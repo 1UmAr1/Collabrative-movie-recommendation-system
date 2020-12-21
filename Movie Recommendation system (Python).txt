@@ -1,0 +1,71 @@
+Pacakges: numpy, pandas, ast, sklearn, matplotlib, tensorflow, ipython, seaborn, time, keras.
+
+File: Zero.py
+Importing packages.
+Reading the processed.csv file that we got from R.
+Reading the ratings.csv file
+Merging the Movies and rating file on the bases of moviesid
+Performing weighted rating (IMDB formula). Using the features (vote Count, vote average).
+Using tfidf vectorization on movies overview(for testing only).
+Checking the cosine similarity of the different overviews of the movies.
+Defining the get_movie function, that gives similar movies based on the cosine similarity based on overview.
+
+
+File: One.py
+(Extra model for research/testing purposes)	 (Embedding model)
+Importing packages.
+Reading 
+Reading the processed.csv file that we got from R.
+Reading the ratings.csv file
+Merging the Movies and rating file on the bases of moviesid
+
+Defining variable linreg imputation. This function will fill missing data in the dataset(column we want it perform in). function predicts the missing values based on other values around it.
+Checking for missing data.
+Using word embedding.
+Using dense layers 
+Loss function = mean squared error/mean_absolute_error
+
+
+
+
+File :two.py
+Reading processed csv files.
+Spliting the data into training and testing sets.
+Using Random forest Regressor.
+Using 10 fold cross validation.
+Checking the socre.
+Checking the importance of the newly created features.
+
+
+File:Three.py
+Using dense neural networks
+Using tensorboard for visualization.
+To visualize (go to command prompt, change directory to where the python file(three.py is located).
+Type: tensorboard –logdir==logsrh 
+After about 30 seconds you will get an ip address copy paste that address in internet brower and run
+Split the data into test and training set.
+Normalize the dataset.
+Using sequential model
+Using dense layers,
+Using adam optimizer
+
+File: DLL.py
+Using Bi-directional long shot term memory model
+Using tensorboard for visualization.
+To visualize (go to command prompt, change directory to where the python file(three.py is located).
+Type: tensorboard –logdir==logsrh 
+After about 30 seconds you will get an ip address copy paste that address in internet brower and run
+Split the data into test and training set.
+Normalize the dataset.
+Using sequential model
+Using Bi-directional long shot term memory model.
+Activation = relu
+Using dropout 
+Using SGD optimizer.
+
+
+
+
+
+
+
